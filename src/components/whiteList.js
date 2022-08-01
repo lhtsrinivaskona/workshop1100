@@ -155,6 +155,35 @@ const WhiteList = () => {
           </tbody>
         </table>
       </div>
+      <div className="mt-12.5 flex justify-between items-center">
+        <div className="flex items-center">
+          <h1 className="text-ft14 font-OpenSansRegular text-grey-150">
+            Show <span className="text-black-50">1</span> to
+            <span className="text-black-50 ml-1 font-OpenSansSemiBold">5</span>
+            of
+            <span className="text-black-50 ml-1 font-OpenSansSemiBold">50</span>
+          </h1>
+          <div className="flex justify-center items-center w-13.5 h-9.5 xs:ml-1 sm:ml-1 ml-5 bg-white gap-2 text-ft14 font-OpenSansSemiBold">
+            <h1>5</h1>
+            <img src="/images/arrow.png" alt="arrow" className="w-2 h-2" />
+          </div>
+        </div>
+        <div className="flex gap-4 items-center bg-white h-9.5">
+          <img
+            src="/images/leftArrow.png"
+            alt="leftArrow"
+            className="h-6 w-6 px-1 py-1 border-r-2 border-grey-150"
+          />
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+          <img
+            src="/images/rightArrow.png"
+            alt="rightArrow"
+            className="h-6 w-6 px-1 py-1 border-l-2 border-grey-150"
+          />
+        </div>
+      </div>
     </div>
   );
 };
