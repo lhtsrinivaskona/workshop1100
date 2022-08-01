@@ -22,12 +22,15 @@ const Header = (props) => {
         </h1>
         <img src="/images/arrow.png" alt="arrow" />
         <div className="w-0 h-5 border border-grey-150 ml-7.5"></div>
-        <div className="">
+        <div className="relative">
           <img
             src="/images/notificationIcon.png"
             alt="notificationIcon"
             className="ml-7.5 w-5 h-5 mr-12.5 xs:mr-2"
           />
+          <div className="flex items-center justify-center rounded-sm bg-blue-100 absolute -top-1 left-10 w-4 h-4 text-white text-ft11">
+            9
+          </div>
         </div>
       </div>
     </div>

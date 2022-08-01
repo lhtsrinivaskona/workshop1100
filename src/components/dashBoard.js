@@ -50,8 +50,8 @@ const DashBoard = () => {
         </div>
         <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
           <img
-            src="/images/revenueIcon.png"
-            alt="revenueIcon"
+            src="/images/personsIcon.png"
+            alt="personsIcon"
             className="h-17.5 w-17.5 2xl:mb-2 xl:mb-2"
           />
           <div className="flex flex-col ml-7.5">
@@ -65,8 +65,8 @@ const DashBoard = () => {
         </div>
         <div className="flex 2xl:flex-col xl:flex-col lg:flex-col md:flex-col flex-wrap items-center py-45px px-5 md:px-1 2xl:px-1 mt-5 mr-7 w-full max-w-115 min-w-60 rounded-sm bg-white">
           <img
-            src="/images/revenueIcon.png"
-            alt="revenueIcon"
+            src="/images/ticketsSold.png"
+            alt="ticketsIcon"
             className="h-17.5 w-17.5 2xl:mb-2 xl:mb-2"
           />
           <div className="flex flex-col ml-7.5">
@@ -134,7 +134,7 @@ const DashBoard = () => {
             Sales by Event
           </h1>
           <div className="mt-10 bg-white h-100 p-5 rounded-sm">
-            <table className="table min-w-full whitespace-nowrap">
+            <table className="table min-w-full whitespace-nowrap ">
               <thead className="border-b border-grey-50 bg-white sticky top-0">
                 <tr className="flex">
                   <th className="flex items-center font-OpenSansSemiBold text-black-50 w-40per">

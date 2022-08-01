@@ -65,6 +65,13 @@ module.exports = {
           lineHeight: "14px",
         },
       ],
+      ft11: [
+        "11px",
+        {
+          letterSpacing: "0em",
+          lineHeight: "15px",
+        },
+      ],
       ft14: [
         "14px",
         {
